@@ -24,6 +24,7 @@ st.set_page_config(layout="wide")
 st.title("Texas Case Study: County Level Health Trends Investigator")
 st.header("A Visual Comparison of Disease Mortality")
 st.write("We created this interactive visualization to help users dig into and identify interesting trends, hotspots & associations across mortality causes")
+st.write("Mortality rates (mx) are in deaths per 100K population.")
 
 dfs_to_plot = ['Cardiovascular Disease', 'Infectious Diseases', 'Respiratory Diseases', 'Substance Abuse & Self Injury']
 sexes = ['Male', 'Female', 'Both']
